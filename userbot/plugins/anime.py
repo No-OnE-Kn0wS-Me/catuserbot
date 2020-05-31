@@ -25,7 +25,6 @@ async def _(event):
     if event.fwd_from:
         return   
     number_of_times = event.text[7:]
-    number_of_times = int(number_of_times)
     i = 0
     anime_list = []
     while i != number_of_times:
@@ -54,7 +53,6 @@ async def action(event):
     if event.fwd_from:
         return   
     number_of_times = event.text[7:]
-    number_of_times = int(number_of_times)
     i = 0
     anime_list = []
     while i != number_of_times:
@@ -83,7 +81,6 @@ async def action(event):
     if event.fwd_from:
         return   
     number_of_times = event.text[7:]
-    number_of_times = int(number_of_times)
     i = 0
     anime_list = []
     while i != number_of_times:
@@ -112,7 +109,6 @@ async def action(event):
     if event.fwd_from:
         return   
     number_of_times = event.text[9:]
-    number_of_times = int(number_of_times)
     i = 0
     anime_list = []
     while i != number_of_times:
@@ -141,7 +137,6 @@ async def action(event):
     if event.fwd_from:
         return   
     number_of_times = event.text[8:]
-    number_of_times = int(number_of_times)
     i = 0
     anime_list = []
     while i != number_of_times:
@@ -170,7 +165,6 @@ async def action(event):
     if event.fwd_from:
         return   
     number_of_times = event.text[10:]
-    number_of_times = int(number_of_times)
     i = 0
     anime_list = []
     while i != number_of_times:
@@ -199,7 +193,6 @@ async def action(event):
     if event.fwd_from:
         return   
     number_of_times = event.text[7:]
-    number_of_times = int(number_of_times)
     i = 0
     anime_list = []
     while i != number_of_times:
